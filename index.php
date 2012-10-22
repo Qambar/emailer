@@ -1,6 +1,12 @@
 <?php
 	
 	$listOfEmails = array (
+						"Qambar Raza,qambar.raza@elexu.org"
+						,"Christy Young,christy.young@elexu.com"
+					);
+	
+	/*
+	$listOfEmails = array (
 						"Qambar Raza" => "qambar.raza@elexu.org"
 						,"Christy Young" => "christy.young@elexu.com"
 			//			,"Christy Young" => "christyyoung@mac.com"
@@ -8,12 +14,13 @@
 			//			,"Sam Watson" => "sam.watson@elexu.org"
 			//			,"Sam Watson" => "sam.watson@elexu.org"
 					);
+	*/
+	//print_r($listOfEmails); 
 	
-	print_r($listOfEmails); 
 	
-	
-	foreach ($listofEmails as $name => $email) {
+	foreach ($listofEmails as $data) {
 		
+		list($name, $email) = split(',', $data);
 		
 		$to = $email;
 
