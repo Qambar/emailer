@@ -9,7 +9,7 @@
 			//			,"Sam Watson" => "sam.watson@elexu.org"
 					);
 	
-	print_r($listOfEmails);
+	print_r($listOfEmails); 
 	/*
 	
 	@foreach ($listofEmails as $name => $email) {
