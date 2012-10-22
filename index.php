@@ -2,7 +2,7 @@
 	
 	$listOfEmails = array (
 						"Qambar Raza" => "qambar.raza@elexu.org"
-			//			,"Christy Young" => "christy.young@elexu.com"
+						,"Christy Young" => "christy.young@elexu.com"
 			//			,"Christy Young" => "christyyoung@mac.com"
 			//			,"Info" => "info@elexu.com"
 			//			,"Sam Watson" => "sam.watson@elexu.org"
@@ -10,9 +10,9 @@
 					);
 	
 	print_r($listOfEmails); 
-	/*
 	
-	@foreach ($listofEmails as $name => $email) {
+	
+	foreach ($listofEmails as $name => $email) {
 		
 		
 		$to = $email;
@@ -50,6 +50,6 @@
 			echo 'Mail sent to : ' . $name . '<'.$to.'>';
 		}
 	}
-	*/
+	
 
 ?>
