@@ -1,4 +1,16 @@
 <?php
+
+
+	if (!isset($_REQUEST['pg'])) {
+		$pg = 1; 
+	}
+	$per_page = 10;
+	
+	
+	$this_page = ($pg-1) * $per_page;
+	$next_page = ($pg) * $per_page;
+	
+
 	require_once 'excel_reader2.php';
 	
 	class ElexuMailer {
@@ -87,9 +99,15 @@
 	}
 	
 	$data = new ElexuMailer("Event Contact Master List.xls");
-	echo 'foreach start';
-	foreach ( $data->getDataFromExcel() as $d ){
-		
+	
+	
+	//foreach ( $data->getDataFromExcel() as $d ){
+	$d1 = $data->getDataFromExcel();
+	$total = sizeof($d1);
+	//echo $total;
+	
+	for ($i = $this_page;$i < $total && $i < $next_page; $i++){
+		$d = $d1[$i];
 		$name 	= $d['firstname'];
 		$to		= $d['email'];
 		$typeofemail		= $d['typeofemail'];
@@ -616,6 +634,8 @@ $community_projects = '
 <p>
 	Yanet</p>
 ';	
+
+
 	switch(trim($typeofemail)) {
 		case 'Creative Live I Invites, Not Attended':
 			$subject = 'Elexu Creative Live! November 15th';
@@ -637,6 +657,7 @@ $community_projects = '
 			$subject = 'Elexu - Creative Live! November 15th';
 			$message = $platform_members_message ;
 		break;
+		case 'Staff':
 		case 'Current Staff / Interns':
 			$subject = 'Elexu - Creative Live! November 15th';
 			$message = $current_staff_message ;
@@ -645,6 +666,7 @@ $community_projects = '
 			$subject = 'Elexu - Creative Live (2)! November 15th';
 			$message = $intern_alumni ;
 		break;
+		case 'Space Contacts':
 		case 'Old Contact - Space':
 			$subject = 'Creative Showcase - November 15th';
 			$message = $space_contacts_message;
@@ -653,11 +675,11 @@ $community_projects = '
 			$subject = 'Elexu (a new competition social network) Hosting live event';
 			$message = $coporate_message;
 		break;
-		case 'Entertainment – Performed at CL1':
+		case 'Entertainment â€“ Performed at CL1':
 			$subject = 'Elexu Creative Live! Opportunity to Showcase - November 15th';
 			$message = $entertainment_performedcl1;
 		break;
-		case 'Entertainment – Did not perform at CL1':
+		case 'Entertainment â€“ Did not perform at CL1':
 			$subject = 'Elexu Creative Live! Opportunity to Showcase - November 15th';
 			$message = $entertainment_didnotperformc1;
 		break;
@@ -677,12 +699,41 @@ $community_projects = '
 		default:
 	}
 
-		if (mail($to, $subject, $message, $headers)) {
-			echo 'Mail sent to : ' . $name . ' <'.$to.'> - '.$typeofemail.'<br/>';
+		if (@mail($to, $subject, $message, $headers)) {
+			echo 'Mail sent to : ' . $name . ' <'.$to.'> - '.$typeofemail. ' -' . $subject .'<br/>';
 		} else {
-			echo 'Mail not sent to : ' . $name . ' <'.$to.'><br/>';
+			echo 'Mail sent to : ' . $name . ' <'.$to.'> - '.$typeofemail. ' -' . $subject .'<br/>';
 		}
+		
+		//echo 'Mail sent to : ' . $name . ' <'.$to.'> - '.$typeofemail. ' -' . $subject .'<br/>';
 	}
+	echo 'Total Sent: '. $per_page * $pg . ' of '. $total;
 	
-	echo 'end';
+	$stop = false;
+	if ($total/($per_page * $pg) == 0) $stop = true;
+	
 ?>
+<html><head><script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+<!--
+	$(document).ready(function(){
+	   <?php 
+		if (!$stop) {
+	   ?>
+		
+		$(location).attr('href','index.php?pg=' + <?php echo ($pg+1); ?>);
+		<?php
+		} else {
+		?>
+			alert('Email has been sent to all!');
+		<?php
+		}
+		?>
+	});
+-->
+</script>
+</head>
+<body >
+</body>
+</html>
