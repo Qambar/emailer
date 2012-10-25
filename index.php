@@ -578,7 +578,44 @@ $bloggers = '<p>
 	Yanet</p>
 ';
 
-	
+$community_projects = '
+<p>
+	Hey '.$name.'</p>
+<p>
+	<strong><u>Elexu Creative Live!</u></strong></p>
+<p>
+	Elexu &ndash; the new online competition site is offering a live event in London, Elexu Creative Live! As you know from our site, we are all about our community, so this autumn we are throwing our second live event on <strong>November 15<sup>th</sup></strong> in Leicester Square. We will have great entertainment including <strong>live music (</strong><a href="http://soundcloud.com/search?q%5Bfulltext%5D=colourshop"><strong>Colourshop band</strong></a><strong>), short films (</strong><a href="http://vimeo.com/22365180"><strong>Will Berman</strong></a><strong>), photography (</strong><a href="http://pinterest.com/pin/439452876109112393/"><strong>Claudia Iasella</strong></a><strong>)</strong>, and it&rsquo;s at a great location in the heart of London!</p>
+<p>
+	It is <strong>free if you RSVP </strong>by November 12<sup>th</sup>; otherwise it&rsquo;s &pound;2 at the door. Plus, when you RSVP we will give you free invite only membership to <a href="http://www.elexu.com/">www.elexu.com</a> and enter you into the raffle drawing!</p>
+<p>
+	<strong><u>RSVP and Bring a Friend</u></strong></p>
+<p>
+	Visit&nbsp;<strong><a href="http://www.elexu.com/invite" target="_blank">www.elexu.com/invite</a></strong>&nbsp;and&nbsp;<a href="http://www.elexu.com/invite" target="_blank"><strong>sign up online</strong></a>&nbsp;to reserve your place. Remember to include your:</p>
+<p style="margin-left:47.25pt;">
+	&middot;&nbsp;&nbsp;Name<br />
+	&middot;&nbsp;&nbsp;Email Address<br />
+	&middot;&nbsp;&nbsp;VIP Access Code&nbsp;<strong>CRE8LIV2</strong><br />
+	&middot;&nbsp;&nbsp;Biggest Aspiration</p>
+<p>
+	Feel free to <a href="http://www.facebook.com/events/456811061037535/"><strong>share this invite</strong></a> and bring others along (though have them RSVP too if they want to save a few quid). Plus, if they mention your name in the RSVP we will make sure to enter you in the raffle drawing twice. Lastly, if you or someone you know would like to perform or show off their work as a part of our entertainment email us by October 30<sup>th</sup> the contact info or if it&rsquo;s not you, have them email us directly.</p>
+<p>
+	<strong><u>The Details&hellip;</u></strong></p>
+<p>
+	<a href="http://www.facebook.com/events/456811061037535/">Elexu Creative Live</a><br />
+	<em>Live Music, Film, Art, and More!!</em><br />
+	November 15<sup>th</sup> 6:00-9:30 pm<br />
+	Verve Bar - 1 Upper St Martin&#39;s Lane&nbsp;City of London, WC2H 9NY</p>
+<p>
+	<a href="http://elexu.com/blog/elexu-creative-live-success/"><strong><img alt="" border="0" height="234" src="http://qambar.agiletech.ie/emailer/photo.jpg" width="353" /></strong></a></p>
+<p>
+	&nbsp;</p>
+<p>
+	We look forward to seeing you soon! Let us know if you have any questions via email or by phone 020 7734 8294.</p>
+<p>
+	Kind regards,</p>
+<p>
+	Yanet</p>
+';	
 	switch(trim($typeofemail)) {
 		case 'Creative Live I Invites, Not Attended':
 			$subject = 'Elexu Creative Live! November 15th';
@@ -608,7 +645,7 @@ $bloggers = '<p>
 			$subject = 'Elexu - Creative Live (2)! November 15th';
 			$message = $intern_alumni ;
 		break;
-		case 'Space Contacts':
+		case 'Old Contact - Space':
 			$subject = 'Creative Showcase - November 15th';
 			$message = $space_contacts_message;
 		break;
@@ -631,6 +668,10 @@ $bloggers = '<p>
 		case 'Bloggers':
 			$subject = 'Elexu - Creative Live! Rub elbows with the right folks!';
 			$message = $bloggers;
+		break;
+		case 'Community Projects':
+			$subject = 'Elexu - Creative Live! November 15th';
+			$message = $community_projects;
 		break;
 		
 		default:
