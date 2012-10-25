@@ -96,34 +96,49 @@
 
 		$subject = 'Elexu Creative Live!';
 
-		$headers = "From: <Yanet Vinals> " . strip_tags('Yanet.Vinals@elexu.org') . "\r\n";
-		$headers .= "Reply-To: <Yanet Vinals>". strip_tags('Yanet.Vinals@elexu.org') . "\r\n";
+		$headers = "From: Yanet Vinals <Yanet.Vinals@elexu.org> \r\n";
+		$headers .= "Reply-To: Yanet Vinals <Yanet.Vinals@elexu.org> \r\n";
 		$headers .= "MIME-Version: 1.0\r\n";
 		$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 		$oldcontacts_attended_message = '
-		Hey '.$name.',<br/>
-
 		<p>
-			Elexu Creative Live! As you remember our last Creative Live event at Canary Wharf
-			was such a success, we are throwing a winter event on November 15th in Leicester Square. 
-			This time we will have more great entertainment including live music, short films, photographers, 
-			and it’s at a great location in the heart of London!
-		</p><p>
-		It is free if you RSVP by November 12th, otherwise it’s £2 at the door. Plus, when you RSVP we will give you free invite only membership to www.elexu.com and enter you into the raffle drawing!
-		</p><p>
-		To RSVP – send an email to info@elexu.com with the subject line RSVP. Then just write “RSVP Creative Live II – First name, Last name and email address.” If your friend referred you, throw them in there too. Easy peasy.
-		</p><p>
-		Feel free to bring along friends, family, co-workers, anyone (though have them RSVP too if they want to save a few quid). Plus, if they mention your name in the RSVP we will make sure to enter you in the raffle drawing twice. Lastly, if you or someone you  know would like to perform or show off their work as a part of our entertainment, email us by October 30th the contact info or if it’s not you, have them email us directly.
-		</p><p>
-		The Details…<br/>
-		Elexu Creative Live<br/>
-		Live Music, Film, Art, and More!!<br/>
-		November 15th 6:00-9:30 pm<br/>
-		Verve Bar - 1 Upper St Martin\'s Lane  City of London, WC2H 9NY<br/>
-		</p><br/>
-		<img src="http://qambar.agiletech.ie/emailer/photo.jpg" alt="" />
-		
+	Hey '.$name.'</p>
+<p>
+	<strong><u>Elexu Creative Live!</u></strong></p>
+<p>
+	As you remember we recently hosted our Elexu Creative Live event this summer at Canary Wharf. We are sorry you were not able to attend, but the good news is that it was such a success; we are throwing an autumn event on <strong>November 15<sup>th</sup></strong> in Leicester Square. This time we will have more great entertainment <strong>live music (</strong><a href="http://soundcloud.com/search?q%5Bfulltext%5D=colourshop"><strong>Colourshop band</strong></a><strong>), short films (</strong><a href="http://vimeo.com/22365180"><strong>Will Berman</strong></a><strong>), photography (</strong><a href="http://pinterest.com/pin/439452876109112393/"><strong>Claudia Iasella</strong></a><strong>)</strong>, and it&rsquo;s at a great location in the heart of London!</p>
+<p>
+	It is <strong>free if you RSVP</strong> by November 12<sup>th</sup>; otherwise it&rsquo;s &pound;2 at the door. Plus, when you RSVP we will give you free invite only membership to <a href="http://www.elexu.com/">www.elexu.com</a> and enter you into the raffle drawing!</p>
+<p>
+	<strong><u>RSVP and Bring a Friend</u></strong></p>
+<p>
+	Visit&nbsp;<strong><a href="http://www.elexu.com/invite" target="_blank">www.elexu.com/invite</a></strong>&nbsp;and&nbsp;<a href="http://www.elexu.com/invite" target="_blank"><strong>sign up online</strong></a>&nbsp;to reserve your place. Remember to include your:</p>
+<p style="margin-left:47.25pt;">
+	&middot;&nbsp;&nbsp;Name<br />
+	&middot;&nbsp;&nbsp;Email Address<br />
+	&middot;&nbsp;&nbsp;VIP Access Code&nbsp;<strong>CRE8LIV2</strong><br />
+	&middot;&nbsp;&nbsp;Biggest Aspiration</p>
+<p>
+	Feel free to <a href="http://www.facebook.com/events/456811061037535/"><strong>share this invite</strong></a> and bring others along (though have them RSVP too if they want to save a few quid). Plus, if they mention your name in the RSVP we will make sure to enter you in the raffle drawing twice. Lastly, if you or someone you know would like to perform or show off their work as a part of our entertainment email us by October 30<sup>th</sup> the contact info or if it&rsquo;s not you, have them email us directly.</p>
+<p>
+	<strong><u>The Details&hellip;</u></strong></p>
+<p>
+	<a href="http://www.facebook.com/events/456811061037535/">Elexu Creative Live</a></p>
+<p>
+	<em>Live Music, Film, Art, and More!!</em><br />
+	November 15<sup>th</sup> 6:00-9:30 pm<br />
+	Verve Bar - 1 Upper St Martin&#39;s Lane&nbsp;City of London, WC2H 9NY</p>
+
+
+		<p>	<a href="http://elexu.com/blog/elexu-creative-live-success/"><strong><img alt="" border="0" height="234" src="http://qambar.agiletech.ie/emailer/photo.jpg" width="353" /></strong></a></p>
+		<p>
+		We look forward to seeing you soon! Let us know if you have any questions via email or by phone 020 7734 8294.
+</p>
+<br/>
+Kind regards,
+Yanet
+
 		';
 		
 		
@@ -134,7 +149,7 @@
 <p>
 	<strong><u>Elexu Creative Live!</u></strong></p>
 <p>
-	As you remember we recently hosted our Elexu Creative Live event this summer at Canary Wharf. We are sorry you were not able to attend, but the good news is that it was such a success; we are throwing an autumn event on <strong>November 15<sup>th</sup></strong> in Leicester Square. This time we will have more great entertainment <strong>live music (</strong><a href="http://soundcloud.com/search?q%5Bfulltext%5D=colourshop"><strong>Colourshop band</strong></a><strong>), short films (</strong><a href="file:///C:/Users/Mysterious%20Raza/Desktop/vimeo.com/22365180"><strong>Will Berman</strong></a><strong>), photography (</strong><a href="http://pinterest.com/pin/439452876109112393/"><strong>Claudia Iasella</strong></a><strong>)</strong>, and it&rsquo;s at a great location in the heart of London!</p>
+	As you remember we recently hosted our Elexu Creative Live event this summer at Canary Wharf. We are sorry you were not able to attend, but the good news is that it was such a success; we are throwing an autumn event on <strong>November 15<sup>th</sup></strong> in Leicester Square. This time we will have more great entertainment <strong>live music (</strong><a href="http://soundcloud.com/search?q%5Bfulltext%5D=colourshop"><strong>Colourshop band</strong></a><strong>), short films (</strong><a href="http://vimeo.com/22365180"><strong>Will Berman</strong></a><strong>), photography (</strong><a href="http://pinterest.com/pin/439452876109112393/"><strong>Claudia Iasella</strong></a><strong>)</strong>, and it&rsquo;s at a great location in the heart of London!</p>
 <p>
 	&nbsp;</p>
 <p>
@@ -168,16 +183,272 @@
 <p>
 	November 15<sup>th</sup> 6:00-9:30 pm</p>
 <p>
-	Verve Bar - 1 Upper St Martin&#39;s Lane&nbsp;City of London, WC2H 9NY</p><br/>
-	<img src="http://qambar.agiletech.ie/emailer/photo.jpg" alt="" />
+	Verve Bar - 1 Upper St Martin&#39;s Lane&nbsp;City of London, WC2H 9NY</p><p>	<a href="http://elexu.com/blog/elexu-creative-live-success/"><strong><img alt="" border="0" height="234" src="http://qambar.agiletech.ie/emailer/photo.jpg" width="353" /></strong></a></p>
+		<p>
+		We look forward to seeing you soon! Let us know if you have any questions via email or by phone 020 7734 8294.
+</p>
+<br/>
+Kind regards,
+Yanet
+';
+
+$empowering_photo_message = '<p>
+	&nbsp;</p>
+<p>
+	Hey '.$name.'</p>
+<p>
+	<strong><u>Elexu Creative Live!</u></strong></p>
+<p>
+	Elexu &ndash; the new online competition site is offering a live event in London, Elexu Creative Live! As you know from our <strong>Empowerment Photo Competition</strong>, we are all about our community, so this autumn we are throwing our second live event on <strong>November 15<sup>th</sup></strong> in Leicester Square. We will have great entertainment including <strong>live music (</strong><a href="http://soundcloud.com/search?q%5Bfulltext%5D=colourshop"><strong>Colourshop band</strong></a><strong>), short films (</strong><a href="http://vimeo.com/22365180"><strong>Will Berman</strong></a><strong>), photography (</strong><a href="http://pinterest.com/pin/439452876109112393/"><strong>Claudia Iasella</strong></a><strong>)</strong>, and it&rsquo;s at a great location in the heart of London!</p>
+<p>
+	It is <strong>free if you RSVP </strong>by November 12<sup>th</sup>; otherwise it&rsquo;s &pound;2 at the door. Plus, when you RSVP we will give you free invite only membership to <a href="http://www.elexu.com/">www.elexu.com</a> and enter you into the raffle drawing!</p>
+<p>
+	<strong><u>RSVP and Bring a Friend</u></strong></p>
+<p>
+	Visit&nbsp;<strong><a href="http://www.elexu.com/invite" target="_blank">www.elexu.com/invite</a></strong>&nbsp;and&nbsp;<a href="http://www.elexu.com/invite" target="_blank"><strong>sign up online</strong></a>&nbsp;to reserve your place. Remember to include your:</p>
+<p style="margin-left:47.25pt;">
+	&middot;&nbsp;&nbsp;Name<br />
+	&middot;&nbsp;&nbsp;Email Address<br />
+	&middot;&nbsp;&nbsp;VIP Access Code&nbsp;<strong>CRE8LIV2</strong><br />
+	&middot;&nbsp;&nbsp;Biggest Aspiration</p>
+<p>
+	Feel free to <a href="http://www.facebook.com/events/456811061037535/"><strong>share this invite</strong></a> and bring others along (though have them RSVP too if they want to save a few quid). Plus, if they mention your name in the RSVP we will make sure to enter you in the raffle drawing twice. Lastly, if you or someone you know would like to perform or show off their work as a part of our entertainment email us by October 30<sup>th</sup> the contact info or if it&rsquo;s not you, have them email us directly.</p>
+<p>
+	<strong><u>The Details&hellip;</u></strong></p>
+<p>
+	<a href="http://www.facebook.com/events/456811061037535/">Elexu Creative Live</a></p>
+<p>
+	<em>Live Music, Film, Art, and More!!</em><br />
+	November 15<sup>th</sup> 6:00-9:30 pm<br />
+	Verve Bar - 1 Upper St Martin&#39;s Lane&nbsp;City of London, WC2H 9NY</p>
+<p>	<a href="http://elexu.com/blog/elexu-creative-live-success/"><strong><img alt="" border="0" height="234" src="http://qambar.agiletech.ie/emailer/photo.jpg" width="353" /></strong></a></p>
+<p>
+	We look forward to seeing you soon! Let us know if you have any questions via email or by phone 020 7734 8294.</p>
+<p>
+	Kind regards,</p>
+<p>
+	Yanet</p>
+';
+
+$style_it_soho_message = '<p>
+	&nbsp;</p>
+<p>
+	Hey '.$name.'</p>
+<p>
+	<strong><u>Elexu Creative Live!</u></strong></p>
+<p>
+	Elexu &ndash; the new online competition site is offering a live event in London, Elexu Creative Live! As you know from <strong>Style It Soho Competition</strong>, we are all about our community, so this autumn we are throwing our second live event on <strong>November 15<sup>th</sup></strong> in Leicester Square. It is at our event that we will <strong>announce the winner of the competition LIVE</strong>! So bring friends and family to check out your great work.</p>
+<p>
+	We will have great entertainment including <strong>live music (</strong><a href="http://soundcloud.com/search?q%5Bfulltext%5D=colourshop"><strong>Colourshop band</strong></a><strong>), short films (</strong><a href="http://vimeo.com/22365180"><strong>Will Berman</strong></a><strong>), photography (</strong><a href="http://pinterest.com/pin/439452876109112393/"><strong>Claudia Iasella</strong></a><strong>)</strong>, and it&rsquo;s at a great location in the heart of London!</p>
+<p>
+	It is <strong>free if you RSVP </strong>by November 12<sup>th</sup>; otherwise it&rsquo;s &pound;2 at the door. Plus, when you RSVP we will give you free invite only membership to <a href="http://www.elexu.com/">www.elexu.com</a> and enter you into the raffle drawing!</p>
+<p>
+	<strong><u>RSVP and Bring a Friend</u></strong></p>
+<p>
+	Visit&nbsp;<strong><a href="http://www.elexu.com/invite" target="_blank">www.elexu.com/invite</a></strong>&nbsp;and&nbsp;<a href="http://www.elexu.com/invite" target="_blank"><strong>sign up online</strong></a>&nbsp;to reserve your place. Remember to include your:</p>
+<p style="margin-left:47.25pt;">
+	&middot;&nbsp;&nbsp;Name<br />
+	&middot;&nbsp;&nbsp;Email Address<br />
+	&middot;&nbsp;&nbsp;VIP Access Code&nbsp;<strong>CRE8LIV2</strong><br />
+	&middot;&nbsp;&nbsp;Biggest Aspiration</p>
+<p>
+	Feel free to <a href="http://www.facebook.com/events/456811061037535/"><strong>share this invite</strong></a> and bring others along (though have them RSVP too if they want to save a few quid). Plus, if they mention your name in the RSVP we will make sure to enter you in the raffle drawing twice. Lastly, if you or someone you know would like to perform or show off their work as a part of our entertainment email us by October 30<sup>th</sup> the contact info or if it&rsquo;s not you, have them email us directly.</p>
+<p>
+	<strong><u>The Details&hellip;</u></strong></p>
+<p>
+	<a href="http://www.facebook.com/events/456811061037535/">Elexu Creative Live</a><br />
+	<em>Live Music, Film, Art, and More!!</em><br />
+	November 15<sup>th</sup> 6:00-9:30 pm<br />
+	Verve Bar - 1 Upper St Martin&#39;s Lane&nbsp;City of London, WC2H 9NY<br />
+	<a href="http://elexu.com/blog/elexu-creative-live-success/"><strong><img alt="" border="0" height="234" src="http://qambar.agiletech.ie/emailer/photo.jpg" width="353" /></strong></a></p>
+<p>
+	&nbsp;</p>
+<p>
+	We look forward to seeing you soon! Let us know if you have any questions via email or by phone 020 7734 8294.</p>
+<p>
+	Kind regards,</p>
+<p>
+	Yanet</p>
+
+';
+$platform_members_message = '
+<p>
+	Hey '.$name.'</p>
+<p>
+	<strong><u>Elexu Creative Live!</u></strong></p>
+<p>
+	Elexu &ndash; your new online competition site is hosting a live event in London, Elexu Creative Live! As you know from our site, we are all about our community, so this autumn we are throwing our second live event on <strong>November 15<sup>th</sup> </strong>in Leicester Square. We will have great entertainment including <strong>live music (</strong><a href="http://soundcloud.com/search?q%5Bfulltext%5D=colourshop"><strong>Colourshop band</strong></a><strong>), short films (</strong><a href="http://vimeo.com/22365180"><strong>Will Berman</strong></a><strong>), photography (</strong><a href="http://pinterest.com/pin/439452876109112393/"><strong>Claudia Iasella</strong></a><strong>),</strong> and it&rsquo;s at a great location in the heart of London!</p>
+<p>
+	It is <strong>free if you RSVP </strong>by November 12<sup>th</sup>; otherwise it&rsquo;s &pound;2 at the door. Plus, when you RSVP we will give you free invite only membership to <a href="http://www.elexu.com/">www.elexu.com</a> and enter you into the raffle drawing!</p>
+<p>
+	<strong><u>RSVP and Bring a Friend</u></strong></p>
+<p>
+	Email <a href="mailto:info@elexu.com?subject=RSVP%20Creative%20Live%20II">info@elexu.com</a> with &ndash; First name, Last name and email address &ndash; If your friend referred you, throw them in there too. Easy peasy.</p>
+<p>
+	Feel free to <a href="http://www.facebook.com/events/456811061037535/"><strong>share this invite</strong></a> and bring others along (though have them RSVP too if they want to save a few quid). Plus, if they mention your name in the RSVP we will make sure to enter you in the raffle drawing twice. Lastly, if you or someone you know would like to perform or show off their work as a part of our entertainment email us by October 30<sup>th</sup> the contact info or if it&rsquo;s not you, have them email us directly.</p>
+<p>
+	<strong><u>The Details&hellip;</u></strong></p>
+<p>
+	<a href="http://www.facebook.com/events/456811061037535/">Elexu Creative Live</a><br />
+	<em>Live Music, Film, Art, and More!!</em><br />
+	November 15<sup>th</sup> 6:00-9:30 pm<br />
+	Verve Bar - 1 Upper St Martin&#39;s Lane&nbsp;City of London, WC2H 9NY</p>
+<p>
+	<a href="http://elexu.com/blog/elexu-creative-live-success/"><strong><img alt="" border="0" height="234" src="http://qambar.agiletech.ie/emailer/photo.jpg" width="353" /></strong></a></p>
+<p>
+	We look forward to seeing you soon! Let us know if you have any questions via email or by phone 020 7734 8294.</p>
+<p>
+	Kind regards,</p>
+<p>
+	Yanet</p>
+';
+
+$current_staff_message = '<p>
+	&nbsp;</p>
+<p>
+	Hey '.$name.'</p>
+<p>
+	<strong><em>Here is the info to share with friends, family and others about Creative Live II, though please make sure to add any new contacts to the events master list.</em></strong></p>
+<p>
+	<strong><u>Elexu Creative Live!</u></strong></p>
+<p>
+	Elexu &ndash; your new online competition site is hosting a live event in London, Elexu Creative Live! As you know from our site, we are all about our community, so this autumn we are throwing our second live event on <strong>November 15<sup>th</sup> </strong>in Leicester Square. We will have great entertainment including <strong>live music (</strong><a href="http://soundcloud.com/search?q%5Bfulltext%5D=colourshop"><strong>Colourshop band</strong></a><strong>), short films (</strong><a href="http://vimeo.com/22365180"><strong>Will Berman</strong></a><strong>), photography (</strong><a href="http://pinterest.com/pin/439452876109112393/"><strong>Claudia Iasella</strong></a><strong>),</strong> and it&rsquo;s at a great location in the heart of London!</p>
+<p>
+	It is <strong>free if you RSVP </strong>by November 12<sup>th</sup>; otherwise it&rsquo;s &pound;2 at the door. Plus, when you RSVP we will give you free invite only membership to <a href="http://www.elexu.com/">www.elexu.com</a> and enter you into the raffle drawing!</p>
+<p>
+	<strong><u>RSVP and Bring a Friend</u></strong></p>
+<p>
+	Visit&nbsp;<strong><a href="http://www.elexu.com/invite" target="_blank">www.elexu.com/invite</a></strong>&nbsp;and&nbsp;<a href="http://www.elexu.com/invite" target="_blank"><strong>sign up online</strong></a>&nbsp;to reserve your place. Remember to include your:</p>
+<p style="margin-left:47.25pt;">
+	&middot;&nbsp;&nbsp;Name<br />
+	&middot;&nbsp;&nbsp;Email Address<br />
+	&middot;&nbsp;&nbsp;VIP Access Code&nbsp;<strong>CRE8LIV2</strong><br />
+	&middot;&nbsp;&nbsp;Biggest Aspiration</p>
+<p>
+	Feel free to <a href="http://www.facebook.com/events/456811061037535/"><strong>share this invite</strong></a> and bring others along (though have them RSVP too if they want to save a few quid). Plus, if they mention your name in the RSVP we will make sure to enter you in the raffle drawing twice. Lastly, if you or someone you know would like to perform or show off their work as a part of our entertainment email us by October 30<sup>th</sup> the contact info or if it&rsquo;s not you, have them email us directly.</p>
+<p>
+	<strong><u>The Details&hellip;</u></strong></p>
+<p>
+	<a href="http://www.facebook.com/events/456811061037535/">Elexu Creative Live</a><br />
+	<em>Live Music, Film, Art, and More!!</em><br />
+	November 15<sup>th</sup> 6:00-9:30 pm<br />
+	Verve Bar - 1 Upper St Martin&#39;s Lane&nbsp;City of London, WC2H 9NY</p>
+<p>
+	<a href="http://elexu.com/blog/elexu-creative-live-success/"><strong><img alt="" border="0" height="234" src="http://qambar.agiletech.ie/emailer/photo.jpg" width="353" /></strong></a></p>
+<p>
+	&nbsp;</p>
+<p>
+	We look forward to seeing you soon! Let us know if you have any questions via email or by phone 020 7734 8294.</p>
+<p>
+	Kind regards,</p>
+<p>
+	Yanet</p>
+';
+$intern_alumni = '<p>
+	&nbsp;</p>
+<p>
+	Hey '.$name.'</p>
+<p>
+	<strong><u>Elexu Creative Live!</u></strong></p>
+<p>
+	Well life at Elexu is certainly not the same without you, and we miss you! That&rsquo;s why we want to invite you to come catch up with us at our next Elexu Creative Live on <strong>November 15<sup>th</sup> </strong>in Leicester Square. We will have great entertainment including <strong>live music (</strong><a href="http://soundcloud.com/search?q%5Bfulltext%5D=colourshop"><strong>Colourshop band</strong></a><strong>), short films (</strong><a href="http://vimeo.com/22365180"><strong>Will Berman</strong></a><strong>), photography (</strong><a href="http://pinterest.com/pin/439452876109112393/"><strong>Claudia Iasella</strong></a><strong>),</strong> and it&rsquo;s at a great location in the heart of London!</p>
+<p>
+	It is <strong>free if you RSVP </strong>by November 12<sup>th</sup>; otherwise it&rsquo;s &pound;2 at the door. Plus, when you RSVP we will give you free invite only membership to <a href="http://www.elexu.com/">www.elexu.com</a> and enter you into the raffle drawing!</p>
+<p>
+	<strong><u>RSVP and Bring a Friend</u></strong></p>
+<p>
+	Email <a href="mailto:info@elexu.com?subject=RSVP%20Creative%20Live%20II">info@elexu.com</a> with &ndash; First name, Last name and email address &ndash; Easy peasy.</p>
+<p>
+	Feel free to <a href="http://www.facebook.com/events/456811061037535/"><strong>share this invite</strong></a> and bring others along (though have them RSVP too if they want to save a few quid). Plus, if they mention your name in the RSVP we will make sure to enter you in the raffle drawing twice. Lastly, if you or someone you know would like to perform or show off their work as a part of our entertainment email us by October 30<sup>th</sup> the contact info or if it&rsquo;s not you, have them email us directly.</p>
+<p>
+	<strong><u>The Details&hellip;</u></strong></p>
+<p>
+	Elexu Creative Live<br />
+	<em>Live Music, Film, Art, and More!!</em><br />
+	November 15<sup>th</sup> 6:00-9:30 pm<br />
+	Verve Bar - 1 Upper St Martin&#39;s Lane&nbsp;City of London, WC2H 9NY</p>
+<p>
+	<a href="http://elexu.com/blog/elexu-creative-live-success/"><strong><img alt="" border="0" height="234" src="http://qambar.agiletech.ie/emailer/photo.jpg" width="353" /></strong></a></p>
+<p>
+	We look forward to seeing you all soon! J</p>
+<p>
+	Miss you guys!</p>
+<p>
+	Yanet</p>
+';
+$space_contacts_message = '<p>
+	Hey '.$name.'</p>
+<p>
+	You may remember, earlier this year I stopped by the open house night you had with Space. It was lovely speaking to you and learning about your work. We are close to launching the [ SPACE ] site for your artistic community, so we will have updates for you on that shortly.</p>
+<p>
+	<strong><u>Elexu Creative Live!</u></strong></p>
+<p>
+	In the meantime, I wanted to invite you to an artistic showcase. This autumn we are throwing our second live event on <strong>November 15<sup>th</sup></strong> in Leicester Square. We will have great entertainment including <strong>live music (</strong><a href="http://soundcloud.com/search?q%5Bfulltext%5D=colourshop"><strong>Colourshop band</strong></a><strong>), short films (</strong><a href="http://vimeo.com/22365180"><strong>Will Berman</strong></a><strong>), photography (</strong><a href="http://pinterest.com/pin/439452876109112393/"><strong>Claudia Iasella</strong></a><strong>)</strong>, and it&rsquo;s at a great location in the heart of London!</p>
+<p>
+	It is <strong>free if you RSVP </strong>by November 12<sup>th</sup>, otherwise it&rsquo;s &pound;2 at the door. Plus, when you RSVP we will give you free invite only membership to <a href="http://www.elexu.com/">www.elexu.com</a> and enter you into the raffle drawing!</p>
+<p>
+	<strong><u>RSVP and Bring a Friend</u></strong></p>
+<p>
+	Visit&nbsp;<strong><a href="http://www.elexu.com/invite" target="_blank">www.elexu.com/invite</a></strong>&nbsp;and&nbsp;<a href="http://www.elexu.com/invite" target="_blank"><strong>sign up online</strong></a>&nbsp;to reserve your place. Remember to include your:</p>
+<p style="margin-left:47.25pt;">
+	&middot;&nbsp;&nbsp;Name<br />
+	&middot;&nbsp;&nbsp;Email Address<br />
+	&middot;&nbsp;&nbsp;VIP Access Code&nbsp;<strong>CRE8LIV2</strong><br />
+	&middot;&nbsp;&nbsp;Biggest Aspiration</p>
+<p>
+	Feel free to <a href="http://www.facebook.com/events/456811061037535/"><strong>share this invite</strong></a> and bring others along (though have them RSVP too if they want to save a few quid). Plus, if they mention your name in the RSVP we will make sure to enter you in the raffle drawing twice. Lastly, if you or someone you know would like to perform or show off their work as a part of our entertainment, email us by October 30<sup>th</sup> the contact info or if it&rsquo;s not you, have them email us directly.</p>
+<p>
+	<strong><u>The Details&hellip;</u></strong></p>
+<p>
+	<a href="http://www.facebook.com/events/456811061037535/">Elexu Creative Live</a><br />
+	<em>Live Music, Film, Art, and More!!</em><br />
+	November 15<sup>th</sup> 6:00-9:30 pm<br />
+	Verve Bar - 1 Upper St Martin&#39;s Lane&nbsp;&nbsp;City of London, WC2H 9NY</p>
+<p>
+	<a href="http://elexu.com/blog/elexu-creative-live-success/"><strong><img alt="" border="0" height="234" src="http://qambar.agiletech.ie/emailer/photo.jpg" width="353" /></strong></a></p>
+<p>
+	We look forward to seeing you soon! Let us know if you have any questions via email or by phone 020 7734 8294.</p>
+<p>
+	Kind regards,</p>
+<p>
+	Yanet</p>
 ';
 	switch(trim($typeofemail)) {
 		case 'Creative Live I Invites, Not Attended':
-			$message = $oldcontacts_attended_message;
-		break;
-		case 'Creative Live I Attended':
+			$subject = 'Elexu Creative Live! November 15th';
 			$message = $oldcontacts_notattended_message;
 		break;
+		case 'Creative Live I Attended':
+			$subject = 'Elexu Creative Live! November 15th';
+			$message = $oldcontacts_attended_message;
+		break;
+		case 'Empowering Photo Contacts':
+			$subject = 'Elexu - Creative Live! November 15th';
+			$message = $empowering_photo_message;
+		break;
+		case 'Style It Soho':
+			$subject = 'Elexu - Creative Live! Announce Winner Style It Soho!!';
+			$message = $style_it_soho_message ;
+		break;
+		case 'Platform Members':
+			$subject = 'Elexu - Creative Live! November 15th';
+			$message = $platform_members_message ;
+		break;
+		case 'Current Staff / Interns':
+			$subject = 'Elexu - Creative Live! November 15th';
+			$message = $current_staff_message ;
+		break;
+		case 'Intern Alumni':
+			$subject = 'Elexu - Creative Live (2)! November 15th';
+			$message = $intern_alumni ;
+		break;
+		case 'Space Contacts':
+			$subject = 'Creative Showcase - November 15th';
+			$message = $space_contacts_message;
+		break;
+		default:
+			$subject = 'Elexu Creative Live! November 15th';
+			$message = $oldcontacts_notattended_message;
 		
 	}
 
