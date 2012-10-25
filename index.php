@@ -414,35 +414,35 @@ $space_contacts_message = '<p>
 	Yanet</p>
 ';
 	switch(trim($typeofemail)) {
-		case 'Creative Live I Invites, Not Attended':
+		case: 'Creative Live I Invites, Not Attended':
 			$subject = 'Elexu Creative Live! November 15th';
 			$message = $oldcontacts_notattended_message;
 		break;
-		case 'Creative Live I Attended':
+		case :'Creative Live I Attended':
 			$subject = 'Elexu Creative Live! November 15th';
 			$message = $oldcontacts_attended_message;
 		break;
-		case 'Empowering Photo Contacts':
+		case :'Empowering Photo Contacts':
 			$subject = 'Elexu - Creative Live! November 15th';
 			$message = $empowering_photo_message;
 		break;
-		case 'Style It Soho':
+		case: 'Style It Soho':
 			$subject = 'Elexu - Creative Live! Announce Winner Style It Soho!!';
 			$message = $style_it_soho_message ;
 		break;
-		case 'Platform Members':
+		case :'Platform Members':
 			$subject = 'Elexu - Creative Live! November 15th';
 			$message = $platform_members_message ;
 		break;
-		case 'Current Staff / Interns':
+		case: 'Current Staff / Interns':
 			$subject = 'Elexu - Creative Live! November 15th';
 			$message = $current_staff_message ;
 		break;
-		case 'Intern Alumni':
+		case :'Intern Alumni':
 			$subject = 'Elexu - Creative Live (2)! November 15th';
 			$message = $intern_alumni ;
 		break;
-		case 'Space Contacts':
+		case :'Space Contacts':
 			$subject = 'Creative Showcase - November 15th';
 			$message = $space_contacts_message;
 		break;
@@ -453,7 +453,9 @@ $space_contacts_message = '<p>
 	}
 
 		if (mail($to, $subject, $message, $headers)) {
-			echo 'Mail sent to : ' . $name . '<'.$to.'>';
+			echo 'Mail sent to : ' . $name . ' <'.$to.'><br/>';
+		} else {
+			
 		}
 	}
 	
