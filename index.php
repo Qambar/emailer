@@ -413,6 +413,8 @@ $space_contacts_message = '<p>
 <p>
 	Yanet</p>
 ';
+echo $typeofemail;
+
 	switch(trim($typeofemail)) {
 		case 'Creative Live I Invites, Not Attended':
 			$subject = 'Elexu Creative Live! November 15th';
@@ -455,7 +457,7 @@ $space_contacts_message = '<p>
 		if (mail($to, $subject, $message, $headers)) {
 			echo 'Mail sent to : ' . $name . ' <'.$to.'><br/>';
 		} else {
-		
+			
 		}
 	}
 	
