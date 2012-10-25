@@ -87,14 +87,14 @@
 	}
 	
 	$data = new ElexuMailer("Event Contact Master List.xls");
-	
+	echo 'foreach start';
 	foreach ( $data->getDataFromExcel() as $d ){
 		
 		$name 	= $d['firstname'];
 		$to		= $d['email'];
 		$typeofemail		= $d['typeofemail'];
 		
-		var_dump($d);
+		//var_dump($d);
 
 		$subject = 'Elexu Creative Live!';
 
@@ -459,9 +459,9 @@ $space_contacts_message = '<p>
 		if (mail($to, $subject, $message, $headers)) {
 			echo 'Mail sent to : ' . $name . ' <'.$to.'><br/>';
 		} else {
-			
+			echo 'Mail not sent to : ' . $name . ' <'.$to.'><br/>';
 		}
 	}
 	
-	
+	echo 'end';
 ?>
