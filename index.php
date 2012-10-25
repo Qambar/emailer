@@ -127,11 +127,8 @@
 		$subject = 'BUG :: ' . $typeofemail . ' - not working';
 		$message = $name; 
 
-		$signature = '
-
-	<strong>Yanet Vinals</strong>
-<p>
-	Events</p>
+		$signature = '<strong>Yanet Vinals</strong><br />
+	<span style="color:#808080;">Events</span>
 <p>
 	<img alt="http://media-cdn.pinterest.com/upload/53550683039274336_2ANJg2lM.jpg" height="54" src="http://media-cdn.pinterest.com/upload/53550683039274336_2ANJg2lM.jpg" width="109" />&nbsp;<br />
 	Elexu Ltd <strong>| </strong>52 A Berwick St <strong>|</strong><br />
@@ -140,9 +137,9 @@
 	E <strong>|</strong> <a href="mailto:yanet.vinals@elexu.org">yanet.vinals@elexu.org</a><br />
 	W<strong>|</strong> <a href="http://www.elexu.com/" target="_blank">www.elexu.com</a><br />
 	<br />
-	Registered in England 07472860<br />
+	<span style="font-size:10px;"><span style="color:#808080;">Registered in England 07472860</span><br />
 	<br />
-	Disclaimer Notice: The message and attachment(s) contained in this e-mail are intended for the named recipient(s) only. It may contain privileged or confidential information or information which is exempt from disclosure under the applicable laws. If you are not the intended recipient, you must not read, print, retain, copy, distribute, forward or take any action in reliance on it or its attachment(s). If you have received or have been forwarded this e-mail in error, please notify us immediately by return e-mail or&nbsp;e-mail&nbsp;<a href="mailto:info@elexu.com" target="_blank">info@elexu.com</a>&nbsp;and delete this message from the computer in its entirety. Internet communications cannot be guaranteed to be secure and error-free as the information could be intercepted, corrupted, lost, arrive late or contain viruses. The sender and this Company therefore do not accept any liability or responsibility of whatsoever nature in the context of this message and its attachment(s) which arises as a result of Internet transmission. Opinions, conclusions, representations, views and such other information in this message that do not relate to the official business of this Company shall be understood as neither given nor endorsed by it.</p>
+	<span style="color:#808080;">Disclaimer Notice: The message and attachment(s) contained in this e-mail are intended for the named recipient(s) only. It may contain privileged or confidential information or information which is exempt from disclosure under the applicable laws. If you are not the intended recipient, you must not read, print, retain, copy, distribute, forward or take any action in reliance on it or its attachment(s). If you have received or have been forwarded this e-mail in error, please notify us immediately by return e-mail or&nbsp;e-mail&nbsp;</span><a href="mailto:info@elexu.com" target="_blank"><span style="color:#808080;">info@elexu.com</span></a><span style="color:#808080;">&nbsp;and delete this message from the computer in its entirety. Internet communications cannot be guaranteed to be secure and error-free as the information could be intercepted, corrupted, lost, arrive late or contain viruses. The sender and this Company therefore do not accept any liability or responsibility of whatsoever nature in the context of this message and its attachment(s) which arises as a result of Internet transmission. Opinions, conclusions, representations, views and such other information in this message that do not relate to the official business of this Company shall be understood as neither given nor endorsed by it.</span></span></p>
 ';
 
 		$headers = "From: Yanet Vinals <Yanet.Vinals@elexu.org> \r\n";
