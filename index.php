@@ -127,10 +127,9 @@
 		$subject = 'BUG :: ' . $typeofemail . ' - not working';
 		$message = $name; 
 
-		$signature = '<p>
-	&nbsp;</p>
-<p>
-	<strong>Yanet Vinals</strong></p>
+		$signature = '
+
+	<strong>Yanet Vinals</strong>
 <p>
 	Events</p>
 <p>
