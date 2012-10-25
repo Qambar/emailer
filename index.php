@@ -678,7 +678,7 @@ $community_projects = '
 	}
 
 		if (mail($to, $subject, $message, $headers)) {
-			echo 'Mail sent to : ' . $name . ' <'.$to.'><br/>';
+			echo 'Mail sent to : ' . $name . ' <'.$to.'> - '.$typeofemail.'<br/>';
 		} else {
 			echo 'Mail not sent to : ' . $name . ' <'.$to.'><br/>';
 		}
