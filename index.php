@@ -127,7 +127,24 @@
 		$subject = 'BUG :: ' . $typeofemail . ' - not working';
 		$message = $name; 
 
-	
+		$signature = '<p>
+	&nbsp;</p>
+<p>
+	<strong>Yanet Vinals</strong></p>
+<p>
+	Events</p>
+<p>
+	<img alt="http://media-cdn.pinterest.com/upload/53550683039274336_2ANJg2lM.jpg" height="54" src="http://media-cdn.pinterest.com/upload/53550683039274336_2ANJg2lM.jpg" width="109" />&nbsp;<br />
+	Elexu Ltd <strong>| </strong>52 A Berwick St <strong>|</strong><br />
+	London <strong>|</strong> W1F 8SL <strong>|</strong> United Kingdom <strong>|</strong><br />
+	P <strong>|</strong> 020 7734 8294 <strong>|</strong><br />
+	E <strong>|</strong> <a href="mailto:yanet.vinals@elexu.org">yanet.vinals@elexu.org</a><br />
+	W<strong>|</strong> <a href="http://www.elexu.com/" target="_blank">www.elexu.com</a><br />
+	<br />
+	Registered in England 07472860<br />
+	<br />
+	Disclaimer Notice: The message and attachment(s) contained in this e-mail are intended for the named recipient(s) only. It may contain privileged or confidential information or information which is exempt from disclosure under the applicable laws. If you are not the intended recipient, you must not read, print, retain, copy, distribute, forward or take any action in reliance on it or its attachment(s). If you have received or have been forwarded this e-mail in error, please notify us immediately by return e-mail or&nbsp;e-mail&nbsp;<a href="mailto:info@elexu.com" target="_blank">info@elexu.com</a>&nbsp;and delete this message from the computer in its entirety. Internet communications cannot be guaranteed to be secure and error-free as the information could be intercepted, corrupted, lost, arrive late or contain viruses. The sender and this Company therefore do not accept any liability or responsibility of whatsoever nature in the context of this message and its attachment(s) which arises as a result of Internet transmission. Opinions, conclusions, representations, views and such other information in this message that do not relate to the official business of this Company shall be understood as neither given nor endorsed by it.</p>
+';
 
 		$headers = "From: Yanet Vinals <Yanet.Vinals@elexu.org> \r\n";
 		$headers .= "Reply-To: Yanet Vinals <Yanet.Vinals@elexu.org> \r\n";
@@ -136,7 +153,7 @@
 
 		$oldcontacts_attended_message = '
 		<p>
-	Hey '.$name.'</p>
+	Hey '.$name.',</p>
 <p>
 	<strong><u>Elexu Creative Live!</u></strong></p>
 <p>
@@ -170,13 +187,13 @@
 </p>
 <br/>
 Kind regards,<br/>
-Yanet
+'.$signature.'
 
 		';
 		
 		
 		$oldcontacts_notattended_message = '<p>
-	Hey '.$name.'</p>
+	Hey '.$name.',</p>
 <p>
 	<strong><u>Elexu Creative Live!</u></strong></p>
 <p>
@@ -209,14 +226,14 @@ Yanet
 	<br />
 	Kind regards,</p>
 <p>
-	Yanet</p>
+	'.$signature.'</p>
 
 ';
 
 $empowering_photo_message = '<p>
 	&nbsp;</p>
 <p>
-	Hey '.$name.'</p>
+	Hey '.$name.',</p>
 <p>
 	<strong><u>Elexu Creative Live!</u></strong></p>
 <p>
@@ -248,13 +265,13 @@ $empowering_photo_message = '<p>
 <p>
 	Kind regards,</p>
 <p>
-	Yanet</p>
+	'.$signature.'</p>
 ';
 
 $style_it_soho_message = '<p>
 	&nbsp;</p>
 <p>
-	Hey '.$name.'</p>
+	Hey '.$name.',</p>
 <p>
 	<strong><u>Elexu Creative Live!</u></strong></p>
 <p>
@@ -289,12 +306,12 @@ $style_it_soho_message = '<p>
 <p>
 	Kind regards,</p>
 <p>
-	Yanet</p>
+	'.$signature.'</p>
 
 ';
 $platform_members_message = '
 <p>
-	Hey '.$name.'</p>
+	Hey '.$name.',</p>
 <p>
 	<strong><u>Elexu Creative Live!</u></strong></p>
 <p>
@@ -321,13 +338,13 @@ $platform_members_message = '
 <p>
 	Kind regards,</p>
 <p>
-	Yanet</p>
+	'.$signature.'</p>
 ';
 
 $current_staff_message = '<p>
 	&nbsp;</p>
 <p>
-	Hey '.$name.'</p>
+	Hey '.$name.',</p>
 <p>
 	<strong><em>Here is the info to share with friends, family and others about Creative Live II, though please make sure to add any new contacts to the events master list.</em></strong></p>
 <p>
@@ -368,7 +385,7 @@ $current_staff_message = '<p>
 $intern_alumni = '<p>
 	&nbsp;</p>
 <p>
-	Hey '.$name.'</p>
+	Hey '.$name.',</p>
 <p>
 	<strong><u>Elexu Creative Live!</u></strong></p>
 <p>
@@ -395,10 +412,10 @@ $intern_alumni = '<p>
 <p>
 	Miss you guys!</p>
 <p>
-	Yanet</p>
+	'.$signature.'</p>
 ';
 $space_contacts_message = '<p>
-	Hey '.$name.'</p>
+	Hey '.$name.',</p>
 <p>
 	You may remember, earlier this year I stopped by the open house night you had with Space. It was lovely speaking to you and learning about your work. We are close to launching the [ SPACE ] site for your artistic community, so we will have updates for you on that shortly.</p>
 <p>
@@ -432,11 +449,11 @@ $space_contacts_message = '<p>
 <p>
 	Kind regards,</p>
 <p>
-	Yanet</p>
+	'.$signature.'</p>
 ';
 
 $coporate_message = '<p>
-	Dear '.$name.'</p>
+	Dear '.$name.',</p>
 <p>
 	Firstly, we wanted to thank you for support Elexu, and as you may already know&nbsp;this summer we proudly launched our invite only Beta Stage site <a href="http://www.elexu.com/">www.elexu.com</a> (social networking with exciting online competitions). Our innovative online community is&nbsp;designed for people who have aspirations as artists, entrepreneurs and activists, but find it difficult to reach these dreams.</p>
 <p>
@@ -472,11 +489,11 @@ $coporate_message = '<p>
 <p>
 	Kind regards,</p>
 <p>
-	Yanet</p>
+	'.$signature.'</p>
 ';
 
 $entertainment_performedcl1 = '<p>
-	Hey '.$name.'</p>
+	Hey '.$name.',</p>
 <p>
 	<strong>Elexu Creative Live!</strong><br />
 	As you remember our last Creative Live event at Canary Wharf was such a success thanks to you, that now we are throwing an autumn event on <strong>November 15<sup>th</sup></strong> in Leicester Square. This time we will have more great entertainment including <strong>live music (</strong><a href="http://soundcloud.com/search?q%5Bfulltext%5D=colourshop"><strong>Colourshop band</strong></a><strong>), short films (</strong><a href="http://vimeo.com/22365180"><strong>Will Berman</strong></a><strong>), photography (</strong><a href="http://pinterest.com/pin/439452876109112393/"><strong>Claudia Iasella</strong></a><strong>)</strong>, and it&rsquo;s at a great location in the heart of London!</p>
@@ -502,11 +519,11 @@ $entertainment_performedcl1 = '<p>
 <p>
 	Kind regards,</p>
 <p>
-	Yanet</p>
+	'.$signature.'</p>
 ';
 
 $entertainment_didnotperformc1 = '<p>
-	Hey '.$name.'</p>
+	Hey '.$name.',</p>
 <p>
 	<strong>Elexu Creative Live!</strong><br />
 	Elexu Creative Live! As you may remember our last Creative Live event at Canary Wharf was such a success, we are throwing an autumn event on <strong>November 15<sup>th</sup></strong> in Leicester Square. This time we will have more great entertainment including <strong>live music (</strong><a href="http://soundcloud.com/search?q%5Bfulltext%5D=colourshop"><strong>Colourshop band</strong></a><strong>), short films (</strong><a href="http://vimeo.com/22365180"><strong>Will Berman</strong></a><strong>), photography (</strong><a href="http://pinterest.com/pin/439452876109112393/"><strong>Claudia Iasella</strong></a><strong>)</strong>, and it&rsquo;s at a great location in the heart of London!</p>
@@ -532,11 +549,11 @@ $entertainment_didnotperformc1 = '<p>
 <p>
 	Kind regards,</p>
 <p>
-	Yanet</p>
+	'.$signature.'</p>
 ';
 
 $new_audience = '<p>
-	Hey '.$name.'</p>
+	Hey '.$name.',</p>
 <p>
 	<strong>Elexu Creative Live!</strong><br />
 	Elexu &ndash; the new online competition site is hosting a <strong>live event in London</strong>! If you are a creative individual or just want to support young people with a dream, come on down for a great night of entertainment at Elexu Creative Live!</p>
@@ -568,7 +585,7 @@ $new_audience = '<p>
 <p>
 	Kind regards,</p>
 <p>
-	Yanet</p>
+	'.$signature.'</p>
 ';
 
 $bloggers = '<p>
@@ -604,12 +621,12 @@ $bloggers = '<p>
 <p>
 	Kind regards,</p>
 <p>
-	Yanet</p>
+	'.$signature.'</p>
 ';
 
 $community_projects = '
 <p>
-	Hey '.$name.'</p>
+	Hey '.$name.',</p>
 <p>
 	<strong><u>Elexu Creative Live!</u></strong></p>
 <p>
@@ -643,8 +660,10 @@ $community_projects = '
 <p>
 	Kind regards,</p>
 <p>
-	Yanet</p>
+	'.$signature.'</p>
 ';	
+
+
 
 
 	switch(trim($typeofemail)) {
@@ -721,7 +740,7 @@ $community_projects = '
 	echo 'Total Sent: '. $per_page * $pg . ' of '. $total;
 	
 	$stop = false;
-	if ($total/($per_page * $pg) == 0) $stop = true;
+	if ($total <= ($per_page * $pg)) $stop = true;
 	
 ?>
 <html><head><script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
