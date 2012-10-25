@@ -93,6 +93,8 @@
 		$name 	= $d['firstname'];
 		$to		= $d['email'];
 		$typeofemail		= $d['typeofemail'];
+		
+		var_dump($d);
 
 		$subject = 'Elexu Creative Live!';
 
@@ -413,7 +415,7 @@ $space_contacts_message = '<p>
 <p>
 	Yanet</p>
 ';
-echo $typeofemail;
+
 
 	switch(trim($typeofemail)) {
 		case 'Creative Live I Invites, Not Attended':
