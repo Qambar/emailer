@@ -3,6 +3,8 @@
 
 	if (!isset($_REQUEST['pg'])) {
 		$pg = 1; 
+	} else {
+		$pg = $_REQUEST['pg'];
 	}
 	$per_page = 10;
 	
@@ -10,7 +12,16 @@
 	$this_page = ($pg-1) * $per_page;
 	$next_page = ($pg) * $per_page;
 	
-
+	
+	
+	echo 'pg:' . $pg;
+	echo '<br/>';
+	echo 'thispag:' . $this_page;
+	echo '<br/>';
+	echo 'nxtpgL'. $next_page;
+	echo '<br/>';
+	
+	
 	require_once 'excel_reader2.php';
 	
 	class ElexuMailer {
@@ -105,7 +116,7 @@
 	$d1 = $data->getDataFromExcel();
 	$total = sizeof($d1);
 	//echo $total;
-	
+	echo $this_page . ' - '. $next_page;
 	for ($i = $this_page;$i < $total && $i < $next_page; $i++){
 		$d = $d1[$i];
 		$name 	= $d['firstname'];
@@ -721,7 +732,7 @@ $community_projects = '
 	   <?php 
 		if (!$stop) {
 	   ?>
-		
+		//alert('<?php echo ($pg+1); ?>');
 		$(location).attr('href','index.php?pg=' + <?php echo ($pg+1); ?>);
 		<?php
 		} else {
