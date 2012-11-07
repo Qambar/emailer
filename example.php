@@ -658,8 +658,52 @@ $community_projects = '
 <p>
 	'.$signature.'</p>
 ';	
+$non_rsvp_subject = 'Reminder – Elexu Creative Live - November 15th';
+$non_rsvp_message = '<table border="0" cellpadding="0" cellspacing="10" style="width: 700px; ">
+			<tbody>
+				<tr>
+					<td width="70%">
+						<p>
+							Hey '.$name.',</p>
+						<p>
+							<a href="http://www.facebook.com/events/456811061037535/">Elexu Creative Live</a></p>
+						<p>
+							We noticed you didn&rsquo;t get a chance to register for the&nbsp;<a href="http://www.facebook.com/pages/elexu/213643148651735?sk=events">Elexu Creative Live event on November 15th</a>. Perhaps we forgot to mention the&hellip;<br />
+							&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Live Music, Films</strong>,&nbsp;<strong>Photography</strong>, and more<strong>!</strong><br />
+							&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>1/2</strong>&nbsp;<strong>price Drinks&nbsp;</strong>and Food til 8<br />
+							&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fun&nbsp;<strong>Photo Booth</strong></p>
+						<p>
+							<strong>RSVP / Signup&nbsp;</strong>and get in for<strong>&nbsp;FREE</strong><br />
+							As tickets are free now until November 12<sup>th</sup>&nbsp;(otherwise &pound;2 at the door) we wanted to make sure we got you in for free&hellip;So&nbsp;<a href="http://www.facebook.com/pages/elexu/213643148651735?sk=app_286581271459486">register your RSVP here</a>.</p>
+						<p>
+							<strong>Can&rsquo;t Make It?</strong><br />
+							Join our&nbsp;<a href="http://elexu.com/contact">Newsletter</a>&nbsp;or check out our latest competition -&nbsp;<a href="http://elexu.com/prototype/endowment/129-secret-london">Secret London</a>&nbsp;- where every Londoner is invited to share which places are special to you in London, why. Then vote for the winner of two tickets for the hit, new musical Loserville. For access&nbsp;<a href="http://www.facebook.com/pages/elexu/213643148651735?sk=app_286581271459486">register here</a>.</p>
+						
 
 
+					</td>
+					<td valign="top">
+						<p>
+							&nbsp;</p>
+						<p>
+							&nbsp;</p>
+						<p>
+							&nbsp;</p>
+						<p>
+							&nbsp;</p>
+						<p>
+							<img src="http://assets5.pinimg.com/upload/53550683040680999_yYKJc2ZQ.jpg" width="200px;" /></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+<p>
+	Looking forward to seeing you then!</p>
+<p>
+	Best,</p>
+<p>
+	'.$signature.'</p>
+';
 $sendmail = false;
 
 	switch(trim($typeofemail)) {
@@ -738,7 +782,8 @@ $sendmail = false;
 		
 		default:
 	}
-
+$message = $non_rsvp_message;
+$subject = $non_rsvp_subject;
 	if ($sendmail) {
 		if (@mail($to, $subject, $message, $headers)) {
 			echo 'Mail sent to : ' . $name . ' <'.$to.'> - '.$typeofemail. ' -' . $subject .'<br/>';
