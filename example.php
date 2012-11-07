@@ -697,84 +697,8 @@ $non_rsvp_message = '<table border="0" cellpadding="0" cellspacing="10" style="w
 <p>
 	'.$signature.'</p>
 ';
-$sendmail = false;
+$sendmail = true;
 
-	switch(trim($typeofemail)) {
-		case 'Creative Live I Invites, Not Attended':
-			$subject = 'Elexu Creative Live! November 15th';
-			$message = $oldcontacts_notattended_message;
-			$sendmail = true;
-		break;
-		case 'Creative Live I Attended':
-			$subject = 'Elexu Creative Live! November 15th';
-			$message = $oldcontacts_attended_message;
-			$sendmail = true;
-		break;
-		case 'Empowering Photo Contacts':
-			$subject = 'Elexu - Creative Live! November 15th';
-			$message = $empowering_photo_message;
-			$sendmail = true;
-		break;
-		case 'Style It Soho':
-			$subject = 'Elexu - Creative Live! Announce Winner Style It Soho!!';
-			$message = $style_it_soho_message ;
-			$sendmail = true;
-		break;
-		case 'Platform Members':
-			$subject = 'Elexu - Creative Live! November 15th';
-			$message = $platform_members_message ;
-			$sendmail = true;
-		break;
-		case 'Staff':
-		case 'Current Staff / Interns':
-			$subject = 'Elexu - Creative Live! November 15th';
-			$message = $current_staff_message ;
-			$sendmail = true;
-		break;
-		case 'Intern Alumni':
-			$subject = 'Elexu - Creative Live (2)! November 15th';
-			$message = $intern_alumni ;
-			$sendmail = true;
-		break;
-		case 'Space Contacts':
-		case 'Old Contact - Space':
-			$subject = 'Creative Showcase - November 15th';
-			$message = $space_contacts_message;
-			$sendmail = true;
-		break;
-		case 'Corporate':
-			$subject = 'Elexu (a new competition social network) Hosting live event';
-			$message = $coporate_message;
-			$sendmail = true;
-		break;
-		case 'Entertainment – Performed at CL1':
-			$subject = 'Elexu Creative Live! Opportunity to Showcase - November 15th';
-			$message = $entertainment_performedcl1;
-			$sendmail = true;
-		break;
-		case 'Entertainment – Did not perform at CL1':
-			$subject = 'Elexu Creative Live! Opportunity to Showcase - November 15th';
-			$message = $entertainment_didnotperformc1;
-			$sendmail = true;
-		break;
-		case 'New Audience':
-			$subject = 'Elexu - Creative Live! November 15th';
-			$message = $new_audience;
-			$sendmail = true;
-		break;
-		case 'Bloggers':
-			$subject = 'Elexu - Creative Live! Rub elbows with the right folks!';
-			$message = $bloggers;
-			$sendmail = true;
-		break;
-		case 'Community Projects':
-			$subject = 'Elexu - Creative Live! November 15th';
-			$message = $community_projects;
-			$sendmail = true;
-		break;
-		
-		default:
-	}
 $message = $non_rsvp_message;
 $subject = $non_rsvp_subject;
 	if ($sendmail) {
@@ -802,7 +726,7 @@ $subject = $non_rsvp_subject;
 		if (!$stop) {
 	   ?>
 		//alert('<?php echo ($pg+1); ?>');
-		$(location).attr('href','example.php?pg=' + <?php echo ($pg+1); ?>);
+		$(location).attr('href','example.php?blah&pg=' + <?php echo ($pg+1); ?>);
 		<?php
 		} else {
 		?>
