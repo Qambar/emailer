@@ -658,13 +658,18 @@ $community_projects = '
 <p>
 	'.$signature.'</p>
 ';	
+
+$address = 'Hey '.$name.',';
+if ($name == '') {
+	$address = 'Hey,';
+}
 $non_rsvp_subject = 'Reminder – Elexu Creative Live - November 15th';
 $non_rsvp_message = '<table border="0" cellpadding="0" cellspacing="10" style="width: 700px; ">
 			<tbody>
 				<tr>
 					<td width="70%">
 						<p>
-							Hey '.$name.',</p>
+							'.$address.'</p>
 						<p>
 							<a href="http://www.facebook.com/events/456811061037535/">Elexu Creative Live</a></p>
 						<p>
