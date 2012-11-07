@@ -685,7 +685,7 @@ $non_rsvp_message = '<table border="0" cellpadding="0" cellspacing="10" style="w
 					<td valign="top">
 						
 						<p>
-							<img src="http://assets5.pinimg.com/upload/53550683040680999_yYKJc2ZQ.jpg" width="200px;" /></p>
+							<a href="http://www.facebook.com/events/456811061037535/"><img src="http://assets5.pinimg.com/upload/53550683040680999_yYKJc2ZQ.jpg" width="300px;" /></a></p>
 					</td>
 				</tr>
 			</tbody>
