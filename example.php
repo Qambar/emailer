@@ -668,7 +668,7 @@ $non_rsvp_message = '<table border="0" cellpadding="0" cellspacing="10" style="w
 						<p>
 							<a href="http://www.facebook.com/events/456811061037535/">Elexu Creative Live</a></p>
 						<p>
-							We noticed you didn&rsquo;t get a chance to register for the&nbsp;<a href="http://www.facebook.com/pages/elexu/213643148651735?sk=events">Elexu Creative Live event on November 15th</a>. Perhaps we forgot to mention the&hellip;<br />
+							We noticed you didn&rsquo;t get a chance to register for the&nbsp;<a href="http://www.facebook.com/pages/elexu/213643148651735?sk=events">Elexu Creative Live event on November 15th</a>. Perhaps we forgot to mention the&hellip;<br /><br />
 							&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Live Music, Films</strong>,&nbsp;<strong>Photography</strong>, and more<strong>!</strong><br />
 							&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>1/2</strong>&nbsp;<strong>price Drinks&nbsp;</strong>and Food til 8<br />
 							&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fun&nbsp;<strong>Photo Booth</strong></p>
