@@ -109,7 +109,7 @@
 		
 	}
 	
-	$data = new ElexuMailer("Event Contact Master List.xls");
+	$data = new ElexuMailer("live.xls");
 	
 	
 	//foreach ( $data->getDataFromExcel() as $d ){
