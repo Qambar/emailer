@@ -683,14 +683,7 @@ $non_rsvp_message = '<table border="0" cellpadding="0" cellspacing="10" style="w
 
 					</td>
 					<td valign="top">
-						<p>
-							&nbsp;</p>
-						<p>
-							&nbsp;</p>
-						<p>
-							&nbsp;</p>
-						<p>
-							&nbsp;</p>
+						
 						<p>
 							<img src="http://assets5.pinimg.com/upload/53550683040680999_yYKJc2ZQ.jpg" width="200px;" /></p>
 					</td>
