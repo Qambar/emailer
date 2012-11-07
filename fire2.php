@@ -683,22 +683,17 @@ $non_rsvp_message = '<table border="0" cellpadding="0" cellspacing="10" style="w
 						<p>
 							<strong>Can&rsquo;t Make It?</strong><br />
 							Join our&nbsp;<a href="http://elexu.com/contact">Newsletter</a>&nbsp;or check out our latest competition -&nbsp;<a href="http://elexu.com/prototype/endowment/129-secret-london">Secret London</a>&nbsp;- where every Londoner is invited to share which places are special to you in London, why. Then vote for the winner of two tickets for the hit, new musical Loserville. For access&nbsp;<a href="http://www.facebook.com/pages/elexu/213643148651735?sk=app_286581271459486">register here</a>.</p>
-						
-
-
 					</td>
 					<td valign="top">
-						
-						<p>
-							<a href="http://www.facebook.com/events/456811061037535/"><img src="http://assets5.pinimg.com/upload/53550683040680999_yYKJc2ZQ.jpg" width="300px;" /></a></p>
+						<a href="http://www.facebook.com/events/456811061037535/"><img src="http://assets5.pinimg.com/upload/53550683040680999_yYKJc2ZQ.jpg" width="300px;" /></a>
 					</td>
 				</tr>
 			</tbody>
 		</table>
-<p>
-	Looking forward to seeing you then!</p>
-<p>
-	Best,</p>
+
+	Looking forward to seeing you then!<br/>
+
+	Best,<br/>
 <p>
 	'.$signature.'</p>
 ';
