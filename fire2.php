@@ -124,7 +124,7 @@
 		$typeofemail		= $d['typeofemail'];
 		
 		
-		$subject = 'BUG :: ' . $typeofemail . ' - not working';
+		$subject = 'BUG :: ' . $typeofemail . ' - not working'; 
 		$message = $name; 
 
 		$signature = '<strong>Yanet Vinals</strong><br />
