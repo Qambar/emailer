@@ -119,7 +119,7 @@
 	echo $this_page . ' - '. $next_page;
 	for ($i = $this_page;$i < $total && $i < $next_page; $i++){
 		$d = $d1[$i];
-		$name 	= $d['firstname'];
+		$name 	= trim($d['firstname']);
 		$to		= $d['email'];
 		$typeofemail		= $d['typeofemail'];
 		
