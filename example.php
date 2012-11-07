@@ -802,7 +802,7 @@ $subject = $non_rsvp_subject;
 		if (!$stop) {
 	   ?>
 		//alert('<?php echo ($pg+1); ?>');
-		$(location).attr('href','fire.php?pg=' + <?php echo ($pg+1); ?>);
+		$(location).attr('href','example.php?pg=' + <?php echo ($pg+1); ?>);
 		<?php
 		} else {
 		?>
