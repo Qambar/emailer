@@ -4,8 +4,8 @@
 	require 'mailtemplates.php';
 	
 	
-	//$data = new ElexuMailer("data.xls");
-	$data = new ElexuMailer("test.xls");
+	$data = new ElexuMailer("data.xls");
+	//$data = new ElexuMailer("test.xls");
 	
 	$d1 = $data->getDataFromExcel();
 	$total = sizeof($d1);	
