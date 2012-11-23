@@ -43,7 +43,7 @@
 		$mail = getMailTemplates($d['class'], $d['firstname']);
 		$subject = $mail['subject'];
 		$message = $mail['template'];
-		$email = $d['email'];
+		$to = $d['email'];
 		
 		if ($sendmail) {
 			if (@mail($to, $subject, $message, $headers)) {
