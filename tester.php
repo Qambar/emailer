@@ -29,7 +29,10 @@
 	echo '<br/>';
 	echo 'nxtpgL'. $next_page;
 	echo '<br/>';
-	
+	$headers = "From: Yanet Vinals <Yanet.Vinals@elexu.org> \r\n";
+	$headers .= "Reply-To: Yanet Vinals <Yanet.Vinals@elexu.org> \r\n";
+	$headers .= "MIME-Version: 1.0\r\n";
+	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 	echo $this_page . ' - '. $next_page;
 	$sendmail = true;
 	for ($i = $this_page;$i < $total && $i < $next_page; $i++){
@@ -42,6 +45,16 @@
 		$message = $mail['template'];
 		$email = $d['email'];
 		
+		if ($sendmail) {
+			if (@mail($to, $subject, $message, $headers)) {
+				echo 'Mail sent to : ' . $name . ' <'.$to.'> - '.$typeofemail. ' -' . $subject .'<br/>';
+			} else {
+				echo 'Mail sent to : ' . $name . ' <'.$to.'> - '.$typeofemail. ' -' . $subject .'<br/>';
+			}
+		}
+		
+		echo 'Mail sent to : ' . $name . ' <'.$to.'> - '.$typeofemail. ' -' . $subject .'<br/>';
+	
 	}
 	echo 'Total Sent: '. $per_page * $pg . ' of '. $total;
 	
