@@ -40,6 +40,7 @@
 		print_r($d);
 		echo $subject. '<hr/>';
 		//die (print_r(getMailTemplates($d['class'], $d['firstname'])));
+		$name = $d['firstname'];
 		$mail = getMailTemplates($d['class'], $d['firstname']);
 		$subject = $mail['subject'];
 		$message = $mail['template'];
