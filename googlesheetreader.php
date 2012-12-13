@@ -47,7 +47,7 @@
                 //echo 'Name: ' . $node->nodeValue;
               } else {
                 $email = $node->nodeValue;
-                $to = $email;
+                $to = $node->nodeValue;
                // echo 'Email: '. $node->nodeValue;
               
 
@@ -87,10 +87,10 @@
           $headers .= "Reply-To: Elexu <info@elexu.com> \r\n";
           $headers .= "MIME-Version: 1.0\r\n";
           $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-          if (@mail($to, $subject, $message, $headers)) {
-            echo 'Mail sent to : ' . $name . ' <'.$to.'> - '.$typeofemail. ' -' . $subject .'<br/>';
+          if (@mail($email, $subject, $message, $headers)) {
+            echo 'Mail sent to : ' . $name . ' <'.$email . '> - '.$typeofemail. ' -' . $subject .'<br/>';
           } else {
-            echo 'Mail was not sent to : ' . $name . ' <'.$to.'> - '.$typeofemail. ' -' . $subject .'<br/>';
+            echo 'Mail was not sent to : ' . $name . ' <'.$email.'> - '.$typeofemail. ' -' . $subject .'<br/>';
           }
          // echo $template;
 }
